@@ -21,3 +21,7 @@ $('input[type="text"]').keypress(function(e) {
         $('ul').append('<li><span><i class="fas fa-trash"></i></span>' + todoText + '</li>')
     }
 });
+
+$("#toggle-form").click(function () {
+    $("input[type='text']").fadeToggle();
+});
